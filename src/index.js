@@ -1,5 +1,7 @@
 export * from "./revision/index.js";
 
+export * from "./CutGet/index.js";
+
 export { default as Proto } from './Proto/Proto.js';
 export { default as Func } from "./Func.js";
 export { default as Sort } from "./Sort.js";

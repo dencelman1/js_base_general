@@ -1,5 +1,5 @@
 import { _o } from "../_/index.js";
-import {moveDot} from '#utils/front';
+import {moveDot} from '#utils/general';
 
 import { closeDivider, closeDivisor } from "#utils/general";
 
@@ -78,7 +78,7 @@ export default _o(
                             dv = tmpv,
                             dot = dvStr.indexOf("."),
 
-                            divisor = tmpv, divider = tmpv, from = tmpv,
+                            divisor = tmpv, from = tmpv,
 
                             l = 0, lnth = 0, i = 0,
                             cL = "", bf = "", rs = "",
